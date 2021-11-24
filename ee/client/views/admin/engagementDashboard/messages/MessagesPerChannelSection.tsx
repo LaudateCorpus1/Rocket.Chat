@@ -149,7 +149,7 @@ const MessagesPerChannelSection = (): ReactElement => {
 																	}}
 																	// @ts-ignore
 																	tooltip={({ value }): ReactElement => (
-																		<Box fontScale='p2' color='alternative'>
+																		<Box fontScale='p4' color='alternative'>
 																			{t('Value_messages', { value })}
 																		</Box>
 																	)}
@@ -162,15 +162,15 @@ const MessagesPerChannelSection = (): ReactElement => {
 													<Margins block='neg-x4'>
 														<Box>
 															<Margins block='x4'>
-																<Box color='info' fontScale='p1'>
+																<Box color='info' fontScale='p3'>
 																	<LegendSymbol color={colors.y500} />
 																	{t('Private_Chats')}
 																</Box>
-																<Box color='info' fontScale='p1'>
+																<Box color='info' fontScale='p3'>
 																	<LegendSymbol color={colors.g500} />
 																	{t('Private_Channels')}
 																</Box>
-																<Box color='info' fontScale='p1'>
+																<Box color='info' fontScale='p3'>
 																	<LegendSymbol color={colors.b500} />
 																	{t('Public_Channels')}
 																</Box>
@@ -189,13 +189,13 @@ const MessagesPerChannelSection = (): ReactElement => {
 								<Box>
 									<Margins blockEnd='x16'>
 										{table ? (
-											<Box fontScale='p1'>{t('Most_popular_channels_top_5')}</Box>
+											<Box fontScale='p3'>{t('Most_popular_channels_top_5')}</Box>
 										) : (
 											<Skeleton width='50%' />
 										)}
 									</Margins>
 									{table && !table.length && (
-										<Tile fontScale='p1' color='info' style={{ textAlign: 'center' }}>
+										<Tile fontScale='p3' color='info' style={{ textAlign: 'center' }}>
 											{t('Not_enough_data')}
 										</Tile>
 									)}

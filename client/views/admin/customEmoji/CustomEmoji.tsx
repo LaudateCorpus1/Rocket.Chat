@@ -91,10 +91,10 @@ const CustomEmoji: FC<CustomEmojiProps> = function CustomEmoji({ onClick, reload
 								action
 								qa-emoji-id={emojis._id}
 							>
-								<GenericTableCell fontScale='p1' color='default'>
+								<GenericTableCell fontScale='p3' color='default'>
 									<Box withTruncatedText>{emojis.name}</Box>
 								</GenericTableCell>
-								<GenericTableCell fontScale='p1' color='default'>
+								<GenericTableCell fontScale='p3' color='default'>
 									<Box withTruncatedText>{emojis.aliases}</Box>
 								</GenericTableCell>
 							</GenericTableRow>

@@ -69,7 +69,7 @@ const ChannelsTab = (): ReactElement => {
 		>
 			<Box>
 				{channels && !channels.length && (
-					<Tile fontScale='p1' color='info' style={{ textAlign: 'center' }}>
+					<Tile fontScale='p3' color='info' style={{ textAlign: 'center' }}>
 						{t('No_data_found')}
 					</Tile>
 				)}

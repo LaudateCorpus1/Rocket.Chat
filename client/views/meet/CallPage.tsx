@@ -377,7 +377,7 @@ const CallPage: FC<CallPageProps> = ({
 					justifyContent='center'
 					alignItems='center'
 					color='white'
-					fontSize='s1'
+					fontSize='h4'
 				>
 					{t('Call_declined')}
 				</Box>
