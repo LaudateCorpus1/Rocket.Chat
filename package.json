@@ -65,7 +65,7 @@
 		"@settlin/spacebars-loader": "^1.0.9",
 		"@storybook/addon-essentials": "^6.3.12",
 		"@storybook/addon-postcss": "^2.0.0",
-		"@storybook/addons": "^6.3.12",
+		"@storybook/addons": "^6.4.18",
 		"@storybook/react": "^6.3.12",
 		"@testing-library/react": "^12.1.2",
 		"@testing-library/user-event": "^13.5.0",
