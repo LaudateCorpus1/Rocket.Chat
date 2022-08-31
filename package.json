@@ -265,7 +265,7 @@
 		"mkdirp": "^0.5.5",
 		"moleculer": "^0.14.14",
 		"moment": "^2.29.1",
-		"moment-timezone": "^0.5.33",
+		"moment-timezone": "^0.5.37",
 		"mongodb": "^3.6.9",
 		"mongodb-memory-server": "^7.4.1",
 		"nats": "^1.4.8",
