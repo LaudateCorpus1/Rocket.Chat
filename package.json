@@ -224,7 +224,7 @@
 		"eslint-plugin-anti-trojan-source": "^1.0.6",
 		"eventemitter3": "^4.0.7",
 		"exif-be-gone": "^1.2.0",
-		"express": "^4.17.1",
+		"express": "^4.17.3",
 		"express-rate-limit": "^5.2.6",
 		"fflate": "^0.7.1",
 		"fibers": "4.0.3",
